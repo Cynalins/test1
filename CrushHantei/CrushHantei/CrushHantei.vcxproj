@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{96c5845c-c81b-43b6-9bd5-ccba0f3173ad}</ProjectGuid>
-    <RootNamespace>HomeWork01</RootNamespace>
+    <ProjectGuid>{7572ab62-d7a3-4af8-acbf-f813e139a590}</ProjectGuid>
+    <RootNamespace>CrushHantei</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
