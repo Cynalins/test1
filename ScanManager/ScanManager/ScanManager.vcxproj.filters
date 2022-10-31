@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\Object">
+      <UniqueIdentifier>{41bde8d6-8f50-4029-a596-8a81a1d9563c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Object\Child">
+      <UniqueIdentifier>{8d258fb6-090e-4f89-9127-3c25e9187ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\MainUpdate">
+      <UniqueIdentifier>{04b563e4-84b1-428b-abf8-1e353a23b509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SceneManager">
+      <UniqueIdentifier>{9a27dcda-f558-47aa-91cc-e7ec8ea0d316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SceneManager\Scene">
+      <UniqueIdentifier>{4084abc1-c500-490c-90fa-7589d10425f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SceneManager\Scene\LOGO">
+      <UniqueIdentifier>{a0d0a58c-04f5-4b74-82fc-08a393ef7f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SceneManager\Scene\Menu">
+      <UniqueIdentifier>{bc4e0070-9110-4da1-a3ba-ddbac8e78b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SceneManager\Scene\Stage">
+      <UniqueIdentifier>{e56716fd-8a31-4f62-a37d-217c1b0df872}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>리소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Child.cpp">
+      <Filter>리소스 파일\Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUpdate.cpp">
+      <Filter>리소스 파일\MainUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>리소스 파일\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>리소스 파일\SceneManager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>리소스 파일\SceneManager\Scene\LOGO</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>리소스 파일\SceneManager\Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>리소스 파일\SceneManager\Scene\Stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>리소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Child.h">
+      <Filter>리소스 파일\Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUpdate.h">
+      <Filter>리소스 파일\MainUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>리소스 파일\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>리소스 파일\SceneManager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>리소스 파일\SceneManager\Scene\LOGO</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>리소스 파일\SceneManager\Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>리소스 파일\SceneManager\Scene\Stage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
